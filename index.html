@@ -5,15 +5,44 @@
 </head>
 <body>
     <div>
-        <script type="text/javascript">window.PlotlyConfig = {MathJaxConfig: 'local'};</script>
+        <script type="text/javascript">
+            window.PlotlyConfig = {MathJaxConfig: 'local'};
+        </script>
         <script charset="utf-8" src="https://cdn.plot.ly/plotly-2.27.0.min.js"></script>
         <div id="39e158bb-e9f0-44a9-bb55-f2c2dfd57066" class="plotly-graph-div" style="height:100%; width:100%;"></div>
         <script type="text/javascript">
-            window.PLOTLYENV=window.PLOTLYENV || {};
+            window.PLOTLYENV = window.PLOTLYENV || {};
             if (document.getElementById("39e158bb-e9f0-44a9-bb55-f2c2dfd57066")) {
-                Plotly.newPlot(
-                    "39e158bb-e9f0-44a9-bb55-f2c2dfd57066",
-                    // 你的图表数据和布局配置对象
+                Plotly.newPlot("39e158bb-e9f0-44a9-bb55-f2c2dfd57066",
+                    [{
+                        "link": {
+                            "source": [84, 84, 84, 84, 84, 84, 84, 84, 84, 84, 84, 84, 0, 0, 2, 2, 22, 23, 7, 7, 8, 8, 9, 9, 40, 41, 46, 47, 88, 89, 37, 37],
+                            "target": [0, 1, 2, 3, 4, 22, 23, 7, 8, 9, 10, 11, 14, 15, 46, 47, 22, 23, 24, 25, 26, 27, 28, 29, 40, 41, 46, 47, 88, 89, 90, 91],
+                            "value": [1378295, 1378295, 1378295, 1378295, 1378295, 1378295, 1378295, 1378295, 1378295, 1378295, 1378295, 1378295, 611801, 611801, 2664954, 2664954, 10208106, 10375845, 206457, 206457, 2979968, 2979968, 90339, 90339, 118436, 115794, 1325074, 1339890, 241820, 247668, 206457, 206457]
+                        },
+                        "node": {
+                            "label": ["icv", "Brainstem", "CSF", ...], // 省略其余部分以保持简洁
+                            "line": {
+                                "color": "black",
+                                "width": 0.5
+                            },
+                            "pad": 15,
+                            "thickness": 20
+                        },
+                        "type": "sankey"
+                    }],
+                    {
+                        "layout": {
+                            "title": {
+                                "text": "Sankey Diagram"
+                            },
+                            "font": {
+                                "size": 10
+                            }
+                        }
+                    }, {
+                        "responsive": true
+                    }
                 );
             };
         </script>
